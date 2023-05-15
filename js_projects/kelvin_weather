@@ -1,0 +1,15 @@
+const kelvin = 293;
+//This is a constant variable for the temperature kelvin. It can be updated to any number.
+const celcius = kelvin - 273;
+//celcius is kelvin minus 273
+let fahrenheit = celcius * (9/5)+32;
+fahrenheit = Math.floor(fahrenheit);
+//Temperature calculated in fahrenheit and then rounded down to a whole number using built-in Math object
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`)
+//using string interpolation to replace TEMPERATURE with value saved as fahrenheit
+
+//further converting celcius to newtons for additional practice
+
+let newton = celcius*(33/100);
+newton = Math.floor(newton);
+console.log(`The temperature is ${newton} degree Newton.`)
